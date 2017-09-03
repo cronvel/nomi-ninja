@@ -1,0 +1,77 @@
+
+name: monkey-style
+
+info:
+	> Monkey style is the secret art of a mythic monkey king that was traveling in China
+	> with a magical staff that can extend and retract at will.
+
+replace:
+	" ":
+		- "   "
+	a:
+		- > /-\
+		- > /\
+	b:
+		- > |3
+	c:
+		- > [
+	d:
+		- > |)
+		- > [)
+	e:
+		- > [-
+	f:
+		# - |=
+		- > /=
+	g:
+		- > [,
+	h:
+		- > |-|
+	i:
+		- > ¦
+	j:
+		- > _]
+		- > _/
+		- > _|
+	k:
+		- > |<
+	l:
+		- > |_
+	m:
+		- > |\/|
+		- > /|\
+		- > /\/\
+		- > |V|
+		- > /V\
+	n:
+		- > |\|
+	o:
+		- > []
+	p:
+		- > |>
+		- > |¯'
+	q:
+		- > > <|
+		- > '¯|
+		- > []_
+	r:
+		- > |2
+		- > |Z
+	s:
+		- > _\¯
+	t:
+		- > ¯|¯
+	u:
+		- > |_|
+	v:
+		- > \/
+	w:
+		- > \/\/
+		- > \|/
+		- > |/\|
+	x:
+		- > ><
+	y:
+		- > `/
+	z:
+		- > ¯/_

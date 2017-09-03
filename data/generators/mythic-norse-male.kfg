@@ -1,0 +1,45 @@
+slugId: mythic-norse-male
+
+order: 2
+atomMin: 3
+atomMax: 12
+
+outputSanitizers:
+	- capitalize
+
+samples: 
+	- alf
+	- alfr
+	- alvis
+	- ask
+	- askr
+	- balder
+	- baldr
+	- frey
+	- freyr
+	- gandalf
+	- gunnar
+	- gunnarr
+	- jarl
+	- loke
+	- loki
+	- njáll
+	- njord
+	- njörðr
+	- oden
+	- odin
+	- ǫrvar
+	- orvar
+	- óðinn
+	- sigurd
+	- sigurðr
+	- sindri
+	- thor
+	- þórr
+	- týr
+	- tyr
+	- vidar
+	- víðarr
+	- völund
+	- völundr
+	- yngvi

@@ -1,0 +1,47 @@
+slugId: mythic-norse-female
+
+order: 2
+atomMin: 3
+atomMax: 12
+
+outputSanitizers:
+	- capitalize
+
+samples: 
+	- borghild
+	- borghildr
+	- brynhildr
+	- eir
+	- embla
+	- erna
+	- frea
+	- freya
+	- freyja
+	- frigg
+	- gerd
+	- grid
+	- grímhildr
+	- gróa
+	- gudrun
+	- gunnr
+	- guðrún
+	- heidrun
+	- heiðrún
+	- hel
+	- hildr
+	- huld
+	- hulda
+	- idun
+	- iðunn
+	- nanna
+	- saga
+	- sif
+	- signý
+	- sigrún
+	- siv
+	- skaði
+	- skuld
+	- svanhild
+	- svanhildr
+	- urd
+	- verdandi

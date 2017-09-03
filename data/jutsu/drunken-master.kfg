@@ -1,0 +1,53 @@
+
+name: drunken-master
+
+info:
+	> Drunken master are powerful fearless fighter that use unorthodox fighting style,
+	> they use their drunkeness to fool their foe with strange, unusual and unpredictable move.
+
+(merge) @@iaido-no-jutsu.kfg
+
+replace: (<*) @@monkey-style.kfg#replace
+
+replace:
+	" ":
+		- " "
+	a:
+		- ^
+	b:
+		- ß
+		- |:
+		- P>
+	c:
+		- ç
+		- ¢
+		- ©
+	d:
+		- I>
+	e:
+		- €
+	f:
+		- ƒ
+	l:
+		- £
+	n:
+		- ᴎ
+	r:
+		- ®
+		- я
+	s:
+		- §
+	t:
+		- †
+	u:
+		- µ
+	w:
+		- vv
+	y:
+		- ¥
+	z:
+		- ≥
+	"!":
+		- ¡
+	"?":
+		- ¿

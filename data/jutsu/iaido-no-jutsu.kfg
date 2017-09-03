@@ -1,0 +1,28 @@
+
+name: iaido-no-jutsu
+
+info:
+	> Iaido is the art of drawing the ninjato out of the saya and performing one or two fast deadly strikes,
+	> then cleaning and resheathing the sword.
+
+(merge) @@taijutsu.kfg
+
+replace:
+	a:
+		- "@"
+	c:
+		- "<"
+		- "["
+		- "("
+	i:
+		- "!"
+		- "¦"
+		- ":"
+	j:
+		- ";"
+	l:
+		- "|"
+	s:
+		- "$"
+	t:
+		- "+"

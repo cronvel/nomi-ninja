@@ -1,0 +1,26 @@
+
+name: taijutsu
+info: Taijutsu is the powerful ninja's martial art. With those jutsu, ninja are able to fool most common foe.
+
+replace: (<*) @@genin.kfg#replace
+
+replace:
+	a:
+		- 4
+	b:
+		- 8
+	e:
+		- 3
+	g:
+		- 9
+		- 6
+	l:
+		- 1
+	o:
+		- 0
+	r:
+		- 2
+	s:
+		- 5
+	t:
+		- 7

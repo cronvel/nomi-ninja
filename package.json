@@ -1,0 +1,39 @@
+{
+  "name": "str-gen",
+  "version": "0.0.0",
+  "description": "String generator and filter",
+  "main": "lib/strgen.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "nomi": "./bin/nomi"
+  },
+  "dependencies": {
+    "kung-fig": "^0.38.6",
+    "math-kit": "^0.11.12",
+    "minimist": "^1.2.0",
+    "string-kit": "^0.6.1",
+    "tree-kit": "^0.5.26"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "jshint": "^2.9.2",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/nomi.git"
+  },
+  "keywords": [
+    "nomi"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/nomi/issues"
+  }
+}

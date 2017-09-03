@@ -1,0 +1,84 @@
+slugId: ancient-scandinavian-female
+
+order: 2
+atomMin: 3
+atomMax: 12
+
+outputSanitizers:
+	- capitalize
+
+samples:
+	- alfhildr
+	- arnbjörg
+	- ása
+	- ásdís
+	- áslaug
+	- ásta
+	- ástríðr
+	- aðalbjörg
+	- auðrhildr
+	- bergljót
+	- björg
+	- borghildr
+	- bóthildr
+	- brynhildr
+	- brynja
+	- dagmær
+	- dagný
+	- dagrún
+	- edda
+	- eydís
+	- fríða
+	- grímhildr
+	- gulla
+	- gunna
+	- gunnbjörg
+	- gunnhildr
+	- gunnvör
+	- guðlaug
+	- guðleif
+	- guðríðr
+	- guðrún
+	- gyða
+	- hallþóra
+	- helga
+	- hildr
+	- hjördís
+	- hlíf
+	- hreiðunn
+	- inga
+	- ingibjörg
+	- ingigerðr
+	- ingríðr
+	- ingvildr
+	- iðunn
+	- jórunnr
+	- ketilriðr
+	- magnhildr
+	- myrgjöl
+	- ragna
+	- ragnbjörg
+	- ragnfríðr
+	- ragnheiðr
+	- ragnhildr
+	- rúna
+	- signý
+	- sigríðr
+	- sigrún
+	- sólveig
+	- svanhildr
+	- þone
+	- þóra
+	- þórbjörg
+	- þórdís
+	- þórfríðr
+	- þórhildr
+	- þórný
+	- þórveig
+	- þórví
+	- þýri
+	- tófa
+	- unnr
+	- valdís
+	- vígdís
+	- yngvildr

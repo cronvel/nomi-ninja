@@ -1,0 +1,60 @@
+
+name: suiton-no-jutsu
+info: Suiton no jutsu is the mystical art that manipulate water.
+
+replace:
+	" ":
+		- "   "
+	a:
+		- > (-)
+	b:
+		- > (3
+	c:
+		- > (
+	d:
+		- > |)
+	e:
+		- > (~
+	f:
+		- > (=
+	g:
+		- > (,
+	h:
+		- > )~(
+		- > }~{
+	i:
+		- > ¦
+	j:
+		- > _)
+	k:
+		- > |{
+	l:
+		- > )_
+	m:
+		- > (V)
+	n:
+		- > (\)
+	o:
+		- > ()
+	p:
+		- > (°
+	q:
+		- > ()_
+	r:
+		- > (2
+	s:
+		- > _/¯
+	t:
+		- > ¯)¯
+	u:
+		- > (_)
+	v:
+		- > \)
+	w:
+		- > (/\)
+	x:
+		- > ,\‘
+	y:
+		- > `/
+	z:
+		- > ¯/_

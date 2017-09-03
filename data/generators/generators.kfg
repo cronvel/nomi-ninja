@@ -1,0 +1,14 @@
+generators:
+	- @@lorem-ipsum.kfg
+	
+	- @@elf.kfg
+	- @@ancient-scandinavian-female.kfg
+	- @@ancient-scandinavian-male.kfg
+	- @@mythic-greek-female.kfg
+	- @@mythic-greek-male.kfg
+	- @@mythic-norse-male.kfg
+	- @@mythic-norse-female.kfg
+	- @@biblic-male.kfg
+	- @@biblic-female.kfg
+	- @@old-english-female.kfg
+	- @@old-english-male.kfg

@@ -1,0 +1,19 @@
+
+name: genjutsu
+
+info:
+	> Genjutsu is the art of illusion. This art fool the senses of the foe, in a way he doesn't even know
+	> he is not seeing the reality anymore.
+
+replace:
+	m:
+		- rn
+	u:
+		- u
+		- µ
+	w:
+		- w
+		- vv
+	x:
+		- x
+		- ×

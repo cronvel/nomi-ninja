@@ -1,0 +1,142 @@
+order: 2
+atomMin: 2
+atomMax: 10
+
+atomList:
+	- Chateau
+	- Saint
+	- les
+	- le
+	- la
+	- de
+	- du
+	- en
+	- sur
+	- eau
+	- ou
+
+samples:
+	- Aix-les-Bains
+	- Aix-en-Provence
+	- Ambazac
+	- Ambroise
+	- Andorre
+	- Anvers
+	- Arcachon
+	- Armagnac
+	- Arnac-la-Poste
+	- Artenay
+	- Asnières-Gennevilliers
+	- Aubagne
+	- Aubenas
+	- Aubusson
+	- Avignon
+	- Bayonne
+	- Bazillac
+	- Bel-Air
+	- Belle-Ville
+	- Bergerac
+	- Biscarosse
+	- Brest
+	- Brocéliande
+	- Bordeaux
+	- Boulogne
+	- Bourg-la-Reine
+	- Bourges
+	- Calais
+	- Carcassonne
+	- Carnac
+	- Carpentras
+	- Castel
+	- Cavaillon
+	- Chamberry
+	- Champagne
+	- Charleroi
+	- Chartres
+	- Chateauneuf
+	- Chateauroux
+	- Chatelet
+	- Chatenay
+	- Chatillon
+	- Choisy-le-Roi
+	- Clermont
+	- Clichy
+	- Cognac
+	- Cressensac
+	- Dax
+	- D'Artignac
+	- Dior
+	- Dunkerque
+	- Evry
+	- Fleury-Mérogis
+	- Garonne
+	- Gévaudan
+	- Issoudun
+	- Issy
+	- Ivry
+	- La Muette
+	- La Rochelle
+	- La Roche-sur-Yon
+	- La Trinité-sur-Mer
+	- Le Blanc
+	- Le Bourg
+	- Le Havre
+	- Le Pontet
+	- Les Courtilles
+	- Lièges
+	- Lorient
+	- Marne-la-Vallée
+	- Marseille
+	- Mérignac
+	- Mesnil
+	- Metz
+	- Mimizan
+	- Mirabeau
+	- Montélimar
+	- Montrouge
+	- Montmartre
+	- Mont-Blanc
+	- Mont-Dore
+	- Mont-Ferrand
+	- Morlaix
+	- Narbonne
+	- Nevers
+	- Noirmoutier
+	- Notre-Dame
+	- Les Sables-d'Olonne
+	- Oléron
+	- Orléans
+	- Périgueux
+	- Plaisance
+	- Ploucastel
+	- Poitiers
+	- Quiberon
+	- Quimper
+	- Rochefort
+	- Romorentin
+	- Roubaix
+	- Royan
+	- Salbris
+	- Saint-Brieuc
+	- Saint-George
+	- Saint-Jean-de-Luz
+	- Saint-Louis
+	- Saint-Malo
+	- Saint-Maur
+	- Saint-Palais
+	- Saint-Sulpice
+	- Sainte-Marie-de-la-Mer
+	- Sauvigny
+	- Sète
+	- Sèvre
+	- Tarascon
+	- Tourcoing
+	- Varenne
+	- Valençay
+	- Valras
+	- Versailles
+	- Vichy
+	- Villeneuve
+	- Villiers-sur-Marne
+	- Vierzon
+

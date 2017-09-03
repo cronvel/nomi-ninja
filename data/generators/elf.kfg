@@ -1,0 +1,99 @@
+slugId: elf
+
+order: 2
+atomMin: 3
+atomMax: 12
+
+outputSanitizers:
+	- capitalize
+
+samples:
+# https://en.wikipedia.org/wiki/List_of_Middle-earth_Elves
+	- aegnor
+	- amarië
+	- amdír
+	- amras
+	- amrod
+	- amroth
+	- anairë
+	- angrod
+	- annael
+	- aredhel
+	- beleg
+	- caranthir
+	- celeborn
+	- celebrían
+	- celebrimbor
+	- celegorm
+	- círdan
+	- curufin
+	- daeron
+	- denethor
+	- duilin
+	- eärwen
+	- eärendil
+	- ecthelion
+	- edrahil
+	- egalmoth
+	- eldalótë
+	- elemmakil
+	- elemmírë
+	- elenwë
+	- elmo
+	- elrond
+	- enel
+	- enelyë
+	- enerdhil
+	- eöl
+	- erestor
+	- fëanor
+	- finarfin
+	- findis
+	- finduilas
+	- fingolfin
+	- fingon
+	- finwë
+	- galadhon
+	- galadriel
+	- galathil
+	- galion
+	- gimli
+	- glorfindel
+	- gwindor
+	- haldir
+	- idril
+	- imin
+	- iminyë
+	- indis
+	- inglor
+	- ingwë
+	- ingwion
+	- irimë
+	- legolas
+	- lindir
+	- lúthien
+	- mablung
+	- maedhros
+	- maeglin
+	- maglor
+	- mahtan
+	- míriel
+	- mithrellas
+	- nellas
+	- nerdanel
+	- nimrodel
+	- olwë
+	- orodreth
+	- oropher
+	- orophin
+	- pengolodh
+	- penlod
+	- rog
+	- saeros
+	- salgant
+	- tata
+	- tatië
+	- thranduil
+	- turgon
+	- tuor
+	- voronwë

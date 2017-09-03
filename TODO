@@ -1,0 +1,24 @@
+
+Jutsu:
+
+- Input filtering customization.
+
+
+Markov:
+
+- Non-integer markov order: create 2 graph each with the next and previous order, randomly use one of them.
+  E.g.: order 2.3 will have 70% of chance to use order 2 and 30% of chance to use order 3 for each step.
+
+- Varying markov order: start low, grow at the middle of the word, finish low. Allow more creative words
+  but keep solid root at the middle.
+
+
+
+Non-markov generators:
+
+- Just join random element from arrays.
+  Generating elvish name is easiest this way: just concatenate an adjective with a suffixe.
+
+- Create "portmanteau" word, created by picking two word randomly from a pool, markov may help joining them.
+
+

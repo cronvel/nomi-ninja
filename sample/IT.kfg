@@ -1,0 +1,52 @@
+order: 2
+atomMin: 5
+atomMax: 12
+
+#rebranching: 3
+
+samples:
+	- microsoft
+	- google
+	- apple
+	- twitter
+	- facebook
+	- sharepoint
+	- dropbox
+	- pivotal
+	- redmine
+	- mozilla
+	- firefox
+	- chrome
+	- chromium
+	- windows
+	- linux
+	- github
+	- trello
+	- javascript
+	- thunderbird
+	- wikipedia
+	- intel
+	- youtube
+	- reddit
+	- 4chan
+	- deviantart
+	- nvidia
+	- netflix
+	- oracle
+	- linkedin
+	- ebay
+	- blizzard
+	- wmware
+	- capgemini
+	- infosys
+	- cognizant
+	- accenture
+	- symantec
+	- intuit
+	- samsung
+	- foxconn
+	- amazon
+	- panasonic
+	- toshiba
+	- yahoo
+	- compuware

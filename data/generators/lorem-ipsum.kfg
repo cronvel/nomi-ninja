@@ -1,0 +1,14 @@
+slugId: lorem-ipsum
+
+order: 2
+atomMin: 7
+atomMax: 20
+#rebranching: 3
+
+sourceSplitter: <regex> /\. */
+
+#sampleSplitter: / +|(?=,)/
+sampleSplitter: <regex> /(?=,| )/
+sampleAppend: .
+
+samples: @@lorem-ipsum.txt
