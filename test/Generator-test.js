@@ -1,20 +1,20 @@
 /*
-	The Cedric's Swiss Knife (CSK) - Nomi no Jutsu
-
-	Copyright (c) 2015 Cédric Ronvel 
+	Nomi Ninja
+	
+	Copyright (c) 2015 - 2017 Cédric Ronvel
 	
 	The MIT License (MIT)
-
+	
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
 	in the Software without restriction, including without limitation the rights
 	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 	copies of the Software, and to permit persons to whom the Software is
 	furnished to do so, subject to the following conditions:
-
+	
 	The above copyright notice and this permission notice shall be included in all
 	copies or substantial portions of the Software.
-
+	
 	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -32,7 +32,7 @@
 var string = require( 'string-kit' ) ;
 var expect = require( 'expect.js' ) ;
 
-var Nomi = require( '../lib/Nomi.js' ) ;
+var Generator = require( '../' ).Generator ;
 
 
 
@@ -47,7 +47,7 @@ describe( "Graph creation" , function() {
 	
 	it( "Markov order 1" , function() {
 		
-		var nomi = Nomi.create( { order: 1 } ) ;
+		var nomi = Generator.create( { order: 1 } ) ;
 		
 		nomi.addSamples( [
 			'abc' , 'aei' , 'xyz'
@@ -70,7 +70,7 @@ describe( "Graph creation" , function() {
 	
 	it( "Markov order 2" , function() {
 		
-		var nomi = Nomi.create( { order: 2 } ) ;
+		var nomi = Generator.create( { order: 2 } ) ;
 		
 		nomi.addSamples( [
 			'abc' , 'aei' , 'xyz'
@@ -115,7 +115,7 @@ describe( "Graph creation" , function() {
 		
 		var nomi , expected ;
 		
-		nomi = Nomi.create( { order: 1 , atomList: [ 'th' ] } ) ;
+		nomi = Generator.create( { order: 1 , atomList: [ 'th' ] } ) ;
 		
 		nomi.addSamples( [
 			'the' , 'that' , 'both' , 'what' , 'whether'
@@ -139,7 +139,7 @@ describe( "Graph creation" , function() {
 		expect( nomi.graph ).to.eql( expected ) ;
 		
 		
-		nomi = Nomi.create( { order: 1 , atomList: [ 'th' , 'wh' ] } ) ;
+		nomi = Generator.create( { order: 1 , atomList: [ 'th' , 'wh' ] } ) ;
 		
 		nomi.addSamples( [
 			'the' , 'that' , 'both' , 'what' , 'whether'
@@ -172,7 +172,7 @@ describe( ".generate()" , function() {
 		
 		var i , max = 1000 , name , names = {} ;
 		
-		var nomi = Nomi.create( { order: 2 } ) ;
+		var nomi = Generator.create( { order: 2 } ) ;
 		
 		nomi.addSamples( [
 			'sally' , 'sells' , 'seashells' , 'seashore'

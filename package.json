@@ -10,6 +10,7 @@
     "nomi-ninja": "./bin/nomi-ninja"
   },
   "dependencies": {
+    "doormen": "^0.6.8",
     "kung-fig": "^0.38.6",
     "math-kit": "^0.11.12",
     "minimist": "^1.2.0",
@@ -36,5 +37,13 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cronvel/nomi-ninja/issues"
+  },
+  "copyright": {
+    "title": "Nomi Ninja",
+    "years": [
+      2015,
+      2017
+    ],
+    "owner": "Cédric Ronvel"
   }
 }
