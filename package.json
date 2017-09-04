@@ -1,13 +1,13 @@
 {
-  "name": "str-gen",
+  "name": "nomi-ninja",
   "version": "0.0.0",
-  "description": "String generator and filter",
-  "main": "lib/strgen.js",
+  "description": "String generator and post-filter",
+  "main": "lib/nomi-ninja.js",
   "directories": {
     "test": "test"
   },
   "bin": {
-    "nomi": "./bin/nomi"
+    "nomi-ninja": "./bin/nomi-ninja"
   },
   "dependencies": {
     "kung-fig": "^0.38.6",
@@ -26,14 +26,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cronvel/nomi.git"
+    "url": "https://github.com/cronvel/nomi-ninja.git"
   },
   "keywords": [
-    "nomi"
+    "string",
+    "generator"
   ],
   "author": "Cédric Ronvel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cronvel/nomi/issues"
+    "url": "https://github.com/cronvel/nomi-ninja/issues"
   }
 }
