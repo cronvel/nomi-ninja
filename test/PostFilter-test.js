@@ -1,20 +1,20 @@
 /*
 	Nomi Ninja
-	
-	Copyright (c) 2015 - 2017 Cédric Ronvel
-	
+
+	Copyright (c) 2015 - 2019 Cédric Ronvel
+
 	The MIT License (MIT)
-	
+
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
 	in the Software without restriction, including without limitation the rights
 	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 	copies of the Software, and to permit persons to whom the Software is
 	furnished to do so, subject to the following conditions:
-	
+
 	The above copyright notice and this permission notice shall be included in all
 	copies or substantial portions of the Software.
-	
+
 	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -24,16 +24,13 @@
 	SOFTWARE.
 */
 
-/* jshint unused:false */
 /* global describe, it, before, after */
 
 
 
-var string = require( 'string-kit' ) ;
-var expect = require( 'expect.js' ) ;
-
-//var Nomi = require( '../lib/Nomi.js' ) ;
-var PostFilter = require( '../' ).PostFilter ;
+const string = require( 'string-kit' ) ;
+//const Nomi = require( '../lib/Nomi.js' ) ;
+const PostFilter = require( '..' ).PostFilter ;
 
 
 
@@ -44,10 +41,9 @@ function deb( v )
 
 
 
-describe( "Post filters" , function() {
+describe( "Post filters" , () => {
 	
-	it( "simple test" , function() {
-		
+	it( "simple test" , () => {
 		var ninjaStyle = PostFilter.create() ;
 		
 		//ninjaStyle.addFilter( 'genin' ) ;
@@ -66,6 +62,4 @@ describe( "Post filters" , function() {
 		console.log( ninjaStyle.filter( 'éàùïÖ' ) ) ;
 	} ) ;
 } ) ;
-
-
 

@@ -4,406 +4,406 @@ atomMax: 12
 
 rebranching: 3
 
-samples:
-	- team
-	- synchronisation
-	- corporate
-	- product
-	- project
-	- management
-	- community
-	- apps
-	- application
-	- web
-	- internet
-	- share
-	- social
-	- together
-	- link
-	- network
-	- module
-	- mobile
-	- visibility
-	- open
-	- work
-	- member
-	- efficient
-	- synergize
-	- easy
-	- action
-	- items
-	- applications
-	- architectures
-	- bandwidth
-	- channels
-	- communities
-	- content
-	- convergence
-	- deliverables
-	- business
-	- commerce
-	- markets
-	- services
-	- tailers
-	- experiences
-	- eyeballs
-	- functionalities
-	- infomediaries
-	- infrastructures
-	- initiatives
-	- interfaces
-	- markets
-	- methodologies
-	- metrics
-	- mindshare
-	- models
-	- networks
-	- niches
-	- paradigms
-	- partnerships
-	- platforms
-	- portals
-	- relationships
-	- schemas
-	- solutions
-	- supply
-	- chains
-	- synergies
-	- systems
-	- technologies
-	- users
-	- vortals
-	- webservices
-	- web
-	- readiness
-	- back
-	- end
-	- best
-	- of
-	- breed
-	- bleeding
-	- edge
-	- bricks
-	- and
-	- clicks
-	- clicks
-	- and
-	- mortar
-	- collaborative
-	- compelling
-	- cross
-	- media
-	- cross
-	- platform
-	- customized
-	- cutting
-	- edge
-	- distributed
-	- dot
-	- com
-	- dynamic
-	- business
-	- efficient
-	- end
-	- to
-	- end
-	- enterprise
-	- extensible
-	- frictionless
-	- front
-	- end
-	- global
-	- granular
-	- holistic
-	- impactful
-	- innovative
-	- integrated
-	- interactive
-	- intuitive
-	- killer
-	- leading
-	- edge
-	- magnetic
-	- mission
-	- critical
-	- multiplatform
-	- next
-	- generation
-	- one
-	- to
-	- one
-	- open
-	- source
-	- out
-	- of
-	- the
-	- box
-	- plug
-	- and
-	- play
-	- proactive
-	- real
-	- time
-	- revolutionary
-	- rich
-	- robust
-	- scalable
-	- seamless
-	- sexy
-	- sticky
-	- strategic
-	- synergistic
-	- transparent
-	- turn
-	- key
-	- ubiquitous
-	- user
-	- centric
-	- value
-	- added
-	- vertical
-	- viral
-	- virtual
-	- visionary
-	- web
-	- enabled
-	- wireless
-	- world
-	- class
-	- aggregate
-	- architect
-	- benchmark
-	- brand
-	- cultivate
-	- deliver
-	- deploy
-	- disintermediate
-	- drive
-	- enable
-	- embrace
-	- empower
-	- enable
-	- engage
-	- engineer
-	- enhance
-	- envisioneer
-	- evolve
-	- expedite
-	- exploit
-	- extend
-	- facilitate
-	- generate
-	- grow
-	- harness
-	- implement
-	- incentivize
-	- incubate
-	- innovate
-	- integrate
-	- iterate
-	- leverage
-	- matrix
-	- maximize
-	- mesh
-	- monetize
-	- morph
-	- optimize
-	- orchestrate
-	- productize
-	- recontextualize
-	- redefine
-	- reintermediate
-	- reinvent
-	- repurpose
-	- revolutionize
-	- scale
-	- seize
-	- strategize
-	- streamline
-	- syndicate
-	- synergize
-	- synthesize
-	- target
-	- transform
-	- transition
-	- unleash
-	- utilize
-	- visualize
-	- whiteboard
-	- blast
-	- kick
-	- kickass
-	- roundhousekick
-	- sidekick
-	- uppercut
-	- punch
-	- punchline
-	- dragon
-	- dragonpunch
-	- cutkiller
-	- awesome
-	- slash
-	- dash
-	- clash
-	- great
-	- greatly
-	- might
-	- mighty
-	- allmighty
-	- hot
-	- fire
-	- five
-	- stone
-	- flintstone
-	- gold
-	- silver
-	- moon
-	- sun
-	- black
-	- white
-	- red
-	- blue
-	- indigo
-	- green
-	- yellow
-	- rage
-	- fierce
-	- strong
-	- bold
-	- fast
-	- speed
-	- blazing
-	- blazingly
-	- light
-	- lightning
-	- storm
-	- stormbringer
-	- lightbringer
-	- shot
-	- gun
-	- shotgun
-	- blow
-	- blowgun
-	- whisper
-	- cast
-	- dreamcast
-	- spellcast
-	- edge
-	- blade
-	- sword
-	- wild
-	- west
-	- fireflies
-	- gunblade
-	- bullet
-	- story
-	- ring
-	- rock
-	- knight
-	- show
-	- showdown
-	- tower
-	- team
-	- syn
-	- synchro
-	- synchronisation
-	- product
-	- project
-	- manage
-	- management
-	- community
-	- apps
-	- app
-	- application
-	- web
-	- internet
-	- net
-	- network
-	- share
-	- social
-	- together
-	- gather
-	- link
-	- mobile
-	- visibility
-	- open
-	- work
-	- synergy
-	- synergize
-	- easy
-	- smart
-	- cloud
-	- communicate
-	- spread
-	- word
-	- world
-	- startup
-	- build
-	- great
-	- software
-	- service
-	- online
-	- do
-	- todo
-	- list
-	- todolist
-	- task
-	- forum
-	- blog
-	- weblog
-	- board
-	- activities
-	- comment
-	- public
-	- organize
-	- event
-	- impact
-	- homepage
-	- wiki
-	- wide
-	- netlink
-	- awesome
-	- energy
-	- light
-	- lightning
-	- node
-	- nodejs
-	- notepad
-	- enterprise
-	- vanguard
-	- star
-	- lean
-	- lead
-	- leader
-	- leadership
+--- samples ---
+- team
+- synchronisation
+- corporate
+- product
+- project
+- management
+- community
+- apps
+- application
+- web
+- internet
+- share
+- social
+- together
+- link
+- network
+- module
+- mobile
+- visibility
+- open
+- work
+- member
+- efficient
+- synergize
+- easy
+- action
+- items
+- applications
+- architectures
+- bandwidth
+- channels
+- communities
+- content
+- convergence
+- deliverables
+- business
+- commerce
+- markets
+- services
+- tailers
+- experiences
+- eyeballs
+- functionalities
+- infomediaries
+- infrastructures
+- initiatives
+- interfaces
+- markets
+- methodologies
+- metrics
+- mindshare
+- models
+- networks
+- niches
+- paradigms
+- partnerships
+- platforms
+- portals
+- relationships
+- schemas
+- solutions
+- supply
+- chains
+- synergies
+- systems
+- technologies
+- users
+- vortals
+- webservices
+- web
+- readiness
+- back
+- end
+- best
+- of
+- breed
+- bleeding
+- edge
+- bricks
+- and
+- clicks
+- clicks
+- and
+- mortar
+- collaborative
+- compelling
+- cross
+- media
+- cross
+- platform
+- customized
+- cutting
+- edge
+- distributed
+- dot
+- com
+- dynamic
+- business
+- efficient
+- end
+- to
+- end
+- enterprise
+- extensible
+- frictionless
+- front
+- end
+- global
+- granular
+- holistic
+- impactful
+- innovative
+- integrated
+- interactive
+- intuitive
+- killer
+- leading
+- edge
+- magnetic
+- mission
+- critical
+- multiplatform
+- next
+- generation
+- one
+- to
+- one
+- open
+- source
+- out
+- of
+- the
+- box
+- plug
+- and
+- play
+- proactive
+- real
+- time
+- revolutionary
+- rich
+- robust
+- scalable
+- seamless
+- sexy
+- sticky
+- strategic
+- synergistic
+- transparent
+- turn
+- key
+- ubiquitous
+- user
+- centric
+- value
+- added
+- vertical
+- viral
+- virtual
+- visionary
+- web
+- enabled
+- wireless
+- world
+- class
+- aggregate
+- architect
+- benchmark
+- brand
+- cultivate
+- deliver
+- deploy
+- disintermediate
+- drive
+- enable
+- embrace
+- empower
+- enable
+- engage
+- engineer
+- enhance
+- envisioneer
+- evolve
+- expedite
+- exploit
+- extend
+- facilitate
+- generate
+- grow
+- harness
+- implement
+- incentivize
+- incubate
+- innovate
+- integrate
+- iterate
+- leverage
+- matrix
+- maximize
+- mesh
+- monetize
+- morph
+- optimize
+- orchestrate
+- productize
+- recontextualize
+- redefine
+- reintermediate
+- reinvent
+- repurpose
+- revolutionize
+- scale
+- seize
+- strategize
+- streamline
+- syndicate
+- synergize
+- synthesize
+- target
+- transform
+- transition
+- unleash
+- utilize
+- visualize
+- whiteboard
+- blast
+- kick
+- kickass
+- roundhousekick
+- sidekick
+- uppercut
+- punch
+- punchline
+- dragon
+- dragonpunch
+- cutkiller
+- awesome
+- slash
+- dash
+- clash
+- great
+- greatly
+- might
+- mighty
+- allmighty
+- hot
+- fire
+- five
+- stone
+- flintstone
+- gold
+- silver
+- moon
+- sun
+- black
+- white
+- red
+- blue
+- indigo
+- green
+- yellow
+- rage
+- fierce
+- strong
+- bold
+- fast
+- speed
+- blazing
+- blazingly
+- light
+- lightning
+- storm
+- stormbringer
+- lightbringer
+- shot
+- gun
+- shotgun
+- blow
+- blowgun
+- whisper
+- cast
+- dreamcast
+- spellcast
+- edge
+- blade
+- sword
+- wild
+- west
+- fireflies
+- gunblade
+- bullet
+- story
+- ring
+- rock
+- knight
+- show
+- showdown
+- tower
+- team
+- syn
+- synchro
+- synchronisation
+- product
+- project
+- manage
+- management
+- community
+- apps
+- app
+- application
+- web
+- internet
+- net
+- network
+- share
+- social
+- together
+- gather
+- link
+- mobile
+- visibility
+- open
+- work
+- synergy
+- synergize
+- easy
+- smart
+- cloud
+- communicate
+- spread
+- word
+- world
+- startup
+- build
+- great
+- software
+- service
+- online
+- do
+- todo
+- list
+- todolist
+- task
+- forum
+- blog
+- weblog
+- board
+- activities
+- comment
+- public
+- organize
+- event
+- impact
+- homepage
+- wiki
+- wide
+- netlink
+- awesome
+- energy
+- light
+- lightning
+- node
+- nodejs
+- notepad
+- enterprise
+- vanguard
+- star
+- lean
+- lead
+- leader
+- leadership
 
 # Existing names
-	- basecamp
-	- aceproject
-	- anyplan
-	- asana
-	- assembla
-	- binfire
-	- collabtive
-	- sharepoint
-	- droptask
-	- dynaroad
-	- fasttrack
-	- fusionforge
-	- hyperoffice
-	- instep
-	- launchpad
-	- liquidplanner
-	- omniplan
-	- groupware
-	- pivotaltracker
-	- planbox
-	- planisware
-	- redmine
-	- teamcenter
-	- teamlab
-	- trac
-	- trello
-	- ubidesk
-	- workplan
-	- zoho
+- basecamp
+- aceproject
+- anyplan
+- asana
+- assembla
+- binfire
+- collabtive
+- sharepoint
+- droptask
+- dynaroad
+- fasttrack
+- fusionforge
+- hyperoffice
+- instep
+- launchpad
+- liquidplanner
+- omniplan
+- groupware
+- pivotaltracker
+- planbox
+- planisware
+- redmine
+- teamcenter
+- teamlab
+- trac
+- trello
+- ubidesk
+- workplan
+- zoho

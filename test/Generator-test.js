@@ -1,20 +1,20 @@
 /*
 	Nomi Ninja
-	
-	Copyright (c) 2015 - 2017 Cédric Ronvel
-	
+
+	Copyright (c) 2015 - 2019 Cédric Ronvel
+
 	The MIT License (MIT)
-	
+
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
 	in the Software without restriction, including without limitation the rights
 	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 	copies of the Software, and to permit persons to whom the Software is
 	furnished to do so, subject to the following conditions:
-	
+
 	The above copyright notice and this permission notice shall be included in all
 	copies or substantial portions of the Software.
-	
+
 	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -24,29 +24,24 @@
 	SOFTWARE.
 */
 
-/* jshint unused:false */
 /* global describe, it, before, after */
 
 
 
-var string = require( 'string-kit' ) ;
-var expect = require( 'expect.js' ) ;
-
-var Generator = require( '../' ).Generator ;
+const string = require( 'string-kit' ) ;
+const Generator = require( '..' ).Generator ;
 
 
 
-function deb( v )
-{
+function deb( v ) {
 	console.log( string.inspect( { depth: Infinity , style: 'color' } , v ) ) ;
 }
 
 
 
-describe( "Graph creation" , function() {
+describe( "Graph creation" , () => {
 	
-	it( "Markov order 1" , function() {
-		
+	it( "Markov order 1" , () => {
 		var nomi = Generator.create( { order: 1 } ) ;
 		
 		nomi.addSamples( [
@@ -68,8 +63,7 @@ describe( "Graph creation" , function() {
 		} ) ;
 	} ) ;
 	
-	it( "Markov order 2" , function() {
-		
+	it( "Markov order 2" , () => {
 		var nomi = Generator.create( { order: 2 } ) ;
 		
 		nomi.addSamples( [
@@ -111,8 +105,7 @@ describe( "Graph creation" , function() {
 		expect( nomi.graph ).to.eql( expected ) ;
 	} ) ;
 	
-	it( "Atoms" , function() {
-		
+	it( "Atoms" , () => {
 		var nomi , expected ;
 		
 		nomi = Generator.create( { order: 1 , atomList: [ 'th' ] } ) ;
@@ -161,15 +154,13 @@ describe( "Graph creation" , function() {
 		
 		expect( nomi.graph ).to.eql( expected ) ;
 	} ) ;
-	
 } ) ;
 
 
 
-describe( ".generate()" , function() {
+describe( ".generate()" , () => {
 	
-	it( "Markov order 2" , function() {
-		
+	it( "Markov order 2" , () => {
 		var i , max = 1000 , name , names = {} ;
 		
 		var nomi = Generator.create( { order: 2 } ) ;
@@ -198,6 +189,4 @@ describe( ".generate()" , function() {
 		//console.log( 'diff: ' , names.seashore - ( names.seashells + names.seashelly ) ) ;
 	} ) ;
 } ) ;
-
-
 

@@ -1,21 +1,21 @@
 #!/usr/bin/env node
 /*
 	Nomi Ninja
-	
-	Copyright (c) 2015 - 2017 Cédric Ronvel
-	
+
+	Copyright (c) 2015 - 2019 Cédric Ronvel
+
 	The MIT License (MIT)
-	
+
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
 	in the Software without restriction, including without limitation the rights
 	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 	copies of the Software, and to permit persons to whom the Software is
 	furnished to do so, subject to the following conditions:
-	
+
 	The above copyright notice and this permission notice shall be included in all
 	copies or substantial portions of the Software.
-	
+
 	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -25,13 +25,14 @@
 	SOFTWARE.
 */
 
+"use strict" ;
 
 
-var args = require( 'minimist' )( process.argv.slice( 2 ) ) ;
+
+const args = require( 'minimist' )( process.argv.slice( 2 ) ) ;
 
 
-if ( args._.length < 1 )
-{
+if ( args._.length < 1 ) {
 	console.log( 'Usage is ./tests.js <markov order> [count]' ) ;
 	process.exit() ;
 }
@@ -59,8 +60,7 @@ var generator = Generator.create( {
 generator.addSamples( names ) ;
 
 
-while ( count > 0 )
-{
+while ( count > 0 ) {
 	console.log( generator.generate() ) ;
 	count -- ;
 }

@@ -10,20 +10,16 @@
     "nomi-ninja": "./bin/nomi-ninja"
   },
   "dependencies": {
-    "doormen": "^0.6.9",
-    "kung-fig": "^0.38.6",
-    "math-kit": "^0.11.12",
+    "doormen": "^0.10.12",
+    "kung-fig": "^0.52.8",
+    "math-kit": "^0.12.5",
     "minimist": "^1.2.0",
-    "string-kit": "^0.6.2",
-    "tree-kit": "^0.5.26"
+    "string-kit": "^0.10.3",
+    "tree-kit": "^0.6.1"
   },
-  "devDependencies": {
-    "expect.js": "^0.3.1",
-    "jshint": "^2.9.2",
-    "mocha": "^2.4.5"
-  },
+  "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "test": "tea-time -R dot"
   },
   "repository": {
     "type": "git",
@@ -42,7 +38,7 @@
     "title": "Nomi Ninja",
     "years": [
       2015,
-      2017
+      2019
     ],
     "owner": "Cédric Ronvel"
   }
