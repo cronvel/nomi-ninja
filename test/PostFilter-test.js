@@ -29,13 +29,12 @@
 
 
 const string = require( 'string-kit' ) ;
-//const Nomi = require( '../lib/Nomi.js' ) ;
 const PostFilter = require( '..' ).PostFilter ;
+//const Nomi = require( '../lib/Nomi.js' ) ;
 
 
 
-function deb( v )
-{
+function deb( v ) {
 	console.log( string.inspect( { depth: Infinity , style: 'color' } , v ) ) ;
 }
 

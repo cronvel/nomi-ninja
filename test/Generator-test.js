@@ -50,7 +50,7 @@ describe( "Graph creation" , () => {
 		
 		//console.log( nomi.graph ) ;
 		
-		expect( nomi.graph ).to.eql( {
+		expect( nomi.graph ).to.equal( {
 			'': { sum: 3, nexts: { a: 2, x: 1 } },
 			a: { sum: 2, nexts: { b: 1, e: 1 } },
 			b: { sum: 1, nexts: { c: 1 } },
