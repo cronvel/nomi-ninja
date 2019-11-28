@@ -1,6 +1,6 @@
 {
   "name": "nomi-ninja",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "String generator and post-filter",
   "main": "lib/nomi-ninja.js",
   "directories": {
