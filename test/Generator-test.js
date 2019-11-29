@@ -51,15 +51,15 @@ describe( "Graph creation" , () => {
 		//console.log( nomi.graph ) ;
 		
 		expect( nomi.graph ).to.equal( {
-			'': { sum: 3, nexts: { a: 2, x: 1 } },
-			a: { sum: 2, nexts: { b: 1, e: 1 } },
-			b: { sum: 1, nexts: { c: 1 } },
-			c: { sum: 1, nexts: { '': 1 } },
-			e: { sum: 1, nexts: { i: 1 } },
-			i: { sum: 1, nexts: { '': 1 } },
-			x: { sum: 1, nexts: { y: 1 } },
-			y: { sum: 1, nexts: { z: 1 } },
-			z: { sum: 1, nexts: { '': 1 } }
+			'': { sum: 3, next: { a: 2, x: 1 } },
+			a: { sum: 2, next: { b: 1, e: 1 } },
+			b: { sum: 1, next: { c: 1 } },
+			c: { sum: 1, next: { '': 1 } },
+			e: { sum: 1, next: { i: 1 } },
+			i: { sum: 1, next: { '': 1 } },
+			x: { sum: 1, next: { y: 1 } },
+			y: { sum: 1, next: { z: 1 } },
+			z: { sum: 1, next: { '': 1 } }
 		} ) ;
 	} ) ;
 	
@@ -74,31 +74,31 @@ describe( "Graph creation" , () => {
 		
 		var expected = {
 			'': {
-				'': { sum: 3, nexts: { a: 2, x: 1 } }
+				'': { sum: 3, next: { a: 2, x: 1 } }
 			},
 			a: {
-				'': { sum: 2, nexts: { b: 1, e: 1 } }
+				'': { sum: 2, next: { b: 1, e: 1 } }
 			},
 			b: {
-				a: { sum: 1, nexts: { c: 1 } }
+				a: { sum: 1, next: { c: 1 } }
 			},
 			c: {
-				b: { sum: 1, nexts: { '': 1 } }
+				b: { sum: 1, next: { '': 1 } }
 			},
 			e: {
-				a: { sum: 1, nexts: { i: 1 } }
+				a: { sum: 1, next: { i: 1 } }
 			},
 			i: {
-				e: { sum: 1, nexts: { '': 1 } }
+				e: { sum: 1, next: { '': 1 } }
 			},
 			x: {
-				'': { sum: 1, nexts: { y: 1 } }
+				'': { sum: 1, next: { y: 1 } }
 			},
 			y: {
-				x: { sum: 1, nexts: { z: 1 } }
+				x: { sum: 1, next: { z: 1 } }
 			},
 			z: {
-				y: { sum: 1, nexts: { '': 1 } }
+				y: { sum: 1, next: { '': 1 } }
 			}
 		} ;
 		
@@ -117,16 +117,16 @@ describe( "Graph creation" , () => {
 		//console.log( nomi.graph ) ;
 		
 		expected = {
-			'': { sum: 5, nexts: { th: 2, b: 1, w: 2 } },
-			th: { sum: 4, nexts: { e: 2, a: 1, '': 1 } },
-			e: { sum: 3, nexts: { '': 1, th: 1, r: 1 } },
-			a: { sum: 2, nexts: { t: 2 } },
-			t: { sum: 2, nexts: { '': 2 } },
-			b: { sum: 1, nexts: { o: 1 } },
-			o: { sum: 1, nexts: { th: 1 } },
-			w: { sum: 2, nexts: { h: 2 } },
-			h: { sum: 2, nexts: { a: 1, e: 1 } },
-			r: { sum: 1, nexts: { '': 1 } }
+			'': { sum: 5, next: { th: 2, b: 1, w: 2 } },
+			th: { sum: 4, next: { e: 2, a: 1, '': 1 } },
+			e: { sum: 3, next: { '': 1, th: 1, r: 1 } },
+			a: { sum: 2, next: { t: 2 } },
+			t: { sum: 2, next: { '': 2 } },
+			b: { sum: 1, next: { o: 1 } },
+			o: { sum: 1, next: { th: 1 } },
+			w: { sum: 2, next: { h: 2 } },
+			h: { sum: 2, next: { a: 1, e: 1 } },
+			r: { sum: 1, next: { '': 1 } }
 		} ;
 		
 		expect( nomi.graph ).to.eql( expected ) ;
@@ -141,15 +141,15 @@ describe( "Graph creation" , () => {
 		//console.log( nomi.graph ) ;
 		
 		expected = {
-			'': { sum: 5, nexts: { th: 2, b: 1, wh: 2 } },
-			th: { sum: 4, nexts: { e: 2, a: 1, '': 1 } },
-			e: { sum: 3, nexts: { '': 1, th: 1, r: 1 } },
-			a: { sum: 2, nexts: { t: 2 } },
-			t: { sum: 2, nexts: { '': 2 } },
-			b: { sum: 1, nexts: { o: 1 } },
-			o: { sum: 1, nexts: { th: 1 } },
-			wh: { sum: 2, nexts: { a: 1, e: 1 } },
-			r: { sum: 1, nexts: { '': 1 } }
+			'': { sum: 5, next: { th: 2, b: 1, wh: 2 } },
+			th: { sum: 4, next: { e: 2, a: 1, '': 1 } },
+			e: { sum: 3, next: { '': 1, th: 1, r: 1 } },
+			a: { sum: 2, next: { t: 2 } },
+			t: { sum: 2, next: { '': 2 } },
+			b: { sum: 1, next: { o: 1 } },
+			o: { sum: 1, next: { th: 1 } },
+			wh: { sum: 2, next: { a: 1, e: 1 } },
+			r: { sum: 1, next: { '': 1 } }
 		} ;
 		
 		expect( nomi.graph ).to.eql( expected ) ;
