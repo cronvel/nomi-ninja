@@ -1,6 +1,6 @@
 {
   "name": "nomi-ninja",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "String generator and post-filter",
   "main": "lib/nomi-ninja.js",
   "directories": {
@@ -10,12 +10,12 @@
     "nomi-ninja": "./bin/nomi-ninja"
   },
   "dependencies": {
-    "doormen": "^0.10.12",
-    "kung-fig": "^0.52.8",
-    "math-kit": "^0.12.5",
-    "minimist": "^1.2.0",
-    "string-kit": "^0.10.3",
-    "tree-kit": "^0.6.1"
+    "doormen": "^0.11.1",
+    "kung-fig": "^0.54.2",
+    "math-kit": "^0.13.0",
+    "minimist": "^1.2.5",
+    "string-kit": "^0.11.8",
+    "tree-kit": "^0.6.2"
   },
   "devDependencies": {},
   "scripts": {
